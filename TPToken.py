@@ -38,7 +38,7 @@ def main():
     termUUID = uuid.uuid4()
     print(" UUID Version 4 is: " + termUUID)
     print("Sending payload...")
-    response = sendPayload(username, passwors, termUUID)
+    response = sendPayload(username, password, termUUID)
     print(" Response from server:")
     print(" "+response)
     
